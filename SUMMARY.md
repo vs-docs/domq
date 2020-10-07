@@ -52,7 +52,7 @@
 ## Developer Guides
 
 * [Migration Guide](developer-guides/migration-guide.md)
-* [Extending domQ](developer-guides/extending-domq.md)
+* [Extending domQ](developer-guides/extending.md)
 
 ---
 

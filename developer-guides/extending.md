@@ -14,9 +14,9 @@ This is how you can add an hypothetical `foo` method to domQ collections:
 {% tab title="Vanilla Javascript" %}
 ```javascript
 ( function( window ) {
-	window.domQ.fn.foo = function() {
-		return this;
-	};
+    window.domQ.fn.foo = function() {
+        return this;
+    };
 } )( window );
 ```
 {% endtab %}
@@ -26,7 +26,7 @@ This is how you can add an hypothetical `foo` method to domQ collections:
 import domQ from "domQ";
 
 domQ.fn.foo = function() {
-	return this;
+    return this;
 };
 ```
 {% endtab %}
@@ -48,11 +48,10 @@ This is how you can add an hypothetical `calcNumbers` static method to the Cash 
 {% tab title="Vanilla Javascript" %}
 ```javascript
 ( function( window ) {
-	window.domQ.calcNumbers = function( number1, number2 ) {
-		return ( number1 + number2 );
-	};
+    window.domQ.calcNumbers = function( number1, number2 ) {
+        return ( number1 + number2 );
+    };
 } )( window );
-
 ```
 {% endtab %}
 
@@ -61,7 +60,7 @@ This is how you can add an hypothetical `calcNumbers` static method to the Cash 
 import domQ from "domQ";
 
 domQ.calcNumbers = function( number1, number2 ) {
-	return ( number1 + number2 );
+    return ( number1 + number2 );
 };
 ```
 {% endtab %}
