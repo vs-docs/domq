@@ -1,4 +1,4 @@
-# Getting Started
+# Intro
 
 ![](.gitbook/assets/banner.jpg)
 

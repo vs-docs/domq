@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Intro](README.md)
+* [Getting Started](getting-started.md)
 
 ## Collection Methods
 
