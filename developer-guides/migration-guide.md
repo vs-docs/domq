@@ -2,16 +2,6 @@
 
 While domQ doesn't implement every feature that jQuery provides, everything that it implements should be compatible with jQuery, but there are some minor differences to be aware of and they are listed in this document.
 
-## Attributes
-
-### Booleans
-
-Boolean attributes are: `checked`, `selected`, `async`, `autofocus`, `autoplay`, `controls`, `defer`, `disabled`, `hidden`, `ismap`, `loop`, `multiple`, `open`, `readonly`, `required`, `scoped`.
-
-jQuery handles boolean attributes specially, potentially setting a different value than the one you passed it and updating the corresponding properties as well.
-
-domQ just handles them like any other attribute instead.
-
 ## CSS
 
 ### Relative values
