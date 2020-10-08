@@ -46,8 +46,6 @@ Please check for custom easing functions
 
 {% embed url="https://easings.net/" %}
 
-
-
 ## Example
 
 ```javascript
