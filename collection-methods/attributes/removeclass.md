@@ -16,23 +16,23 @@ Providing no Parameters will remove all classes.
 ### Class List String With Multiple Class
 
 ```javascript
-domQ( "p" ).removeClass( "myClass yourClass" )
+domQ( "p" ).removeClass( "myClass yourClass" );
 ```
 
 ### Class List As Array
 
 ```javascript
-domQ( "p" ).removeClass( [ "myClass", "yourClass" ] )
+domQ( "p" ).removeClass( [ "myClass", "yourClass" ] );
 ```
 
 ### Function Parameter
 
 ```javascript
-domQ( "p" ).removeClass( function(elementIndex,element){
-    if( elementIndex > 2 && domQ(element).attr('id') === 'myelement'){
+domQ( "p" ).removeClass( function( elementIndex, element ){
+    if( elementIndex > 2 && domQ( element ).attr( 'id' ) === 'myelement' ){
         return 'class-to-remove'; // You Can Also Return A Array of class to remove;
     } 
-} )
+} );
 ```
 
 
