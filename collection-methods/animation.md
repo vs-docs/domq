@@ -15,7 +15,7 @@ domQ uses [Web Animations](https://github.com/web-animations/web-animations-js) 
 
 ### Animation Settings
 
-any animation related settings Parameters can be passed with inside keyframes 
+any animation related settings Parameters can be passed with inside keyframes
 
 #### Example
 
@@ -26,9 +26,9 @@ domQ( 'p' ).animate({
 });
 ```
 
-please refer  [MDN reference](https://developer.mozilla.org/en-US/docs/Web/API/Element/animate) for detailed info on animation settings Parameters
+please refer [MDN reference](https://developer.mozilla.org/en-US/docs/Web/API/Element/animate) for detailed info on animation settings Parameters
 
-{% embed url="https://developer.mozilla.org/en-US/docs/Web/API/Element/animate" %}
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/API/Element/animate" caption="" %}
 
 ### Easing
 
@@ -40,11 +40,11 @@ by default animation api runs with browser supported easing which are
 4. `ease-out`
 5. `ease-in-out`
 
-You can also pass custom easing value like  `cubic-bezier(0.42, 0, 0.58, 1)`
+You can also pass custom easing value like `cubic-bezier(0.42, 0, 0.58, 1)`
 
 Please check for custom easing functions
 
-{% embed url="https://easings.net/" %}
+{% embed url="https://easings.net/" caption="" %}
 
 ## Example
 
@@ -57,7 +57,7 @@ domQ( 'p' ).animate( {
    iterations: 20, // Setting
 }, function( element ) {
    alert( 'Element Animation is finished' );
-   
+
    // element variable is actual element object. 
    // you can do what ever you want to do with it.
    domQ( element ).hide(); 

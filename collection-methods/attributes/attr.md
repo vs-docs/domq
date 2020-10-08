@@ -5,17 +5,20 @@ Without attrValue, returns the attribute value of the first element in the colle
 With attrValue, sets the attribute value of each element of the collection.
 
 ## Parameters
+
 1. attrName : `string` / `object`
 2. attrValue : `string` / `number` / `null`
 
 ## Example
 
 ### Setting A Single Attribute
+
 ```javascript
 domQ( "img" ).attr( "alt", "Brush Seller" );
 ```
 
 ### Setting Multiple Attribute
+
 ```javascript
 domQ( "img" ).attr({
   alt: "Brush Seller",
@@ -24,6 +27,7 @@ domQ( "img" ).attr({
 ```
 
 ### Getting Attribute Value
+
 ```javascript
 var value = domQ( 'img' ).attr( 'src' );
 console.log( value );

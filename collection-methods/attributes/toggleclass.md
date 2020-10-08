@@ -2,10 +2,10 @@
 
 Adds or removes className from collection elements based on if the element already has the class.
 
-Accepts space-separated classNames for toggling multiple classes, and an optional force boolean to ensure classes are added ( `true` ) or removed ( `false` ).
-
+Accepts space-separated classNames for toggling multiple classes, and an optional force boolean to ensure classes are added \( `true` \) or removed \( `false` \).
 
 ## Parameters
+
 1. className : `string` / `array` / `function`
 2. state : `boolean`
 

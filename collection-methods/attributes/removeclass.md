@@ -6,13 +6,12 @@ Accepts space-separated className for adding multiple classes.
 
 Providing no Parameters will remove all classes.
 
-
 ## Parameters
 
 1. classes : `string` / `array` / `function`
 
-
 ## Examples
+
 ### Class List String With Multiple Class
 
 ```javascript
@@ -35,12 +34,9 @@ domQ( "p" ).removeClass( function( elementIndex, element ){
 } );
 ```
 
-
 ## Quick Links
 
 {% embed url="https://api.jquery.com/removeClass/" caption="jQuery Documentation" %}
 
 {% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/removeClass.js" caption="Source File" %}
-
-
 
