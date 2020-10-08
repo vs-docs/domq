@@ -6,7 +6,7 @@ Perform a custom animation of a set of CSS properties.
 domQ uses [Web Animations](https://github.com/web-animations/web-animations-js) which is the latest javascript API for Animations
 {% endhint %}
 
-## Arguments
+## Parameters
 
 1. keyframes : `object` / `array`
 2. speed : `string` / `number`
@@ -15,7 +15,7 @@ domQ uses [Web Animations](https://github.com/web-animations/web-animations-js) 
 
 ### Animation Settings
 
-any animation related settings arguments can be passed with inside keyframes 
+any animation related settings Parameters can be passed with inside keyframes 
 
 #### Example
 
@@ -26,7 +26,7 @@ domQ( 'p' ).animate({
 });
 ```
 
-please refer  [MDN reference](https://developer.mozilla.org/en-US/docs/Web/API/Element/animate) for detailed info on animation settings arguments
+please refer  [MDN reference](https://developer.mozilla.org/en-US/docs/Web/API/Element/animate) for detailed info on animation settings Parameters
 
 {% embed url="https://developer.mozilla.org/en-US/docs/Web/API/Element/animate" %}
 
