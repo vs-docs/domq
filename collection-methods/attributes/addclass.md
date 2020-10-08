@@ -25,7 +25,8 @@ domQ( "ul li" ).addClass(function( index ) {
 
 ## Quick Links
 
-#### jQuery Documentation : [https://api.jquery.com/addClass/\#addClass-className](https://api.jquery.com/addClass/#addClass-className)
+{% embed url="https://api.jquery.com/addClass/" caption="jQuery Documentation" %}
 
-#### Github Soruce : [https://github.com/varunsridharan/domq/blob/main/src/attributes/addClass.js](https://github.com/varunsridharan/domq/blob/main/src/attributes/addClass.js)
+{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/addClass.js" caption="Source File" %}
+
 
