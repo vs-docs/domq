@@ -21,11 +21,11 @@ domQ(function () {}) // => document ready callback
  These methods from the collection prototype \(domQ.fn\) are available once you create a collection with `domQ()` and are called like so:
 
 ```javascript
-domQ(element).addClass ( className ) // => collection
+domQ( element ).addClass ( className ) // => collection
 ```
 
 | Attributes | Collection | CSS | Data | Dimensions | Effects |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | [addClass \(\)](collection-methods/attributes/addclass.md) | add \(\) | css \(\) | data \(\) | height \(\) | hide \(\) |
 | attr \(\) | each \(\) |  |  | innerHeight \(\) | show \(\) |
 | hasClass \(\) | eq \(\) |  |  | innerWidth \(\) | toggle \(\) |
@@ -38,7 +38,7 @@ domQ(element).addClass ( className ) // => collection
 |  | slice \(\) |  |  |  |  |
 
 | Events | Forms | Manipulation | Offset | Traversal |
-| :--- | :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: | :---: |
 | off \(\) | serialize \(\) | after \(\) | offset \(\) | children \(\) |
 | on \(\) | val \(\) | append \(\) | offsetParent \(\) | closest \(\) |
 | one \(\) |  | appendTo \(\) | position \(\) | contents \(\) |
@@ -62,10 +62,8 @@ domQ(element).addClass ( className ) // => collection
 
 ## Library Methods
 
-
-
 | Type Checking | Utilities |
-| :--- | :--- |
+| :---: | :---: |
 | isArray \(\) | guid |
 | isFunction \(\) | each \(\) |
 | isNumeric \(\) | extend \(\) |
