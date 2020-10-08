@@ -1,3 +1,7 @@
+---
+description: Adds the specified class(es) to each element in the set of matched elements.
+---
+
 # addClass
 
 Adds the specified class\(es\) to each element in the set of matched elements.
