@@ -29,4 +29,3 @@ domQ( "ul li" ).addClass(function( index ) {
 
 {% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/addClass.js" caption="Source File" %}
 
-
