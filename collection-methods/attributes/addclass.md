@@ -2,7 +2,7 @@
 
 Adds the specified class\(es\) to each element in the set of matched elements.
 
-`addClass( classes )`
+Accepts space-separated `className` for adding multiple classes.
 
 ## Parameters
 
