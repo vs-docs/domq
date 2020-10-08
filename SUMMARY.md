@@ -8,7 +8,6 @@
 * [Animation](collection-methods/animation.md)
 * [Attributes](collection-methods/attributes/README.md)
   * [addClass](collection-methods/attributes/addclass.md)
-  * [attr](collection-methods/attributes/attr.md)
 * [Collection](collection-methods/collection.md)
 * [CSS](collection-methods/css.md)
 * [Data](collection-methods/data.md)
