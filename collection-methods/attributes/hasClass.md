@@ -1,4 +1,4 @@
-# addClass
+# hasClass
 
 Returns the boolean result of checking if any element in the collection has the `className` attribute.
 
