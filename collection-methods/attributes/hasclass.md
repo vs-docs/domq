@@ -4,11 +4,11 @@ Returns the boolean result of checking if any element in the collection has the 
 
 ## Parameters
 
-1. classes : `string` The class name to search for.
+1. classes : `string` The class name to search for
 
 ## Returns
 
-1. `true` if class exists or it will return `false`
+`true` if class exists or it will return `false`
 
 ## Examples
 
@@ -21,7 +21,9 @@ if( domQ( "p" ).hasClass( "myClass yourClass" ) ){
 
 ## Quick Links
 
-#### jQuery Documentation : [https://api.jquery.com/hasClass/](https://api.jquery.com/hasClass/)
+{% embed url="https://api.jquery.com/hasClass/" caption="jQuery Documentation" %}
 
-#### Github Soruce : [https://github.com/varunsridharan/domq/blob/main/src/attributes/hasClass.js](https://github.com/varunsridharan/domq/blob/main/src/attributes/hasClass.js)
+{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/hasClass.js" caption="Source File" %}
+
+
 
