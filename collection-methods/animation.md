@@ -21,7 +21,7 @@ any animation related settings Parameters can be passed with inside keyframes
 
 ```javascript
 domQ( 'p' ).animate({
-    direction: "reverse"
+    direction: "reverse",
     iterations: "2"
 });
 ```
@@ -66,5 +66,5 @@ domQ( 'p' ).animate( {
 
 ## Quick Links
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/animation/animate.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/animation/animate.js" caption="Source File" %}
 

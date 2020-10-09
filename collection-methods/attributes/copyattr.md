@@ -15,7 +15,7 @@ domQ( "p" ).copyAttr( "data-existingName", "data-newName");
 
 ## Quick Links
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/copyAttr.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/attributes/copyAttr.js" caption="Source File" %}
 
 
 

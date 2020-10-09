@@ -38,5 +38,5 @@ domQ( "p" ).removeClass( function( elementIndex, element ){
 
 {% embed url="https://api.jquery.com/removeClass/" caption="jQuery Documentation" %}
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/removeClass.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/attributes/removeClass.js" caption="Source File" %}
 

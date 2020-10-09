@@ -16,9 +16,9 @@ Well as a web developer i wanted to move out from jQuery and use Vanilla JS. Whe
 
 | Size | domQ | domQ + Dizzle | Zepto | jQuery Slim |
 | :--- | :---: | :---: | :---: | :---: |
-| Unminified | 48.7 KB | 80.2 KB | 58.7 KB | 250 KB |
-| Minified | 21.5 KB | 32.4 KB | 26 KB | 70.6 KB |
-| Minified & Gzipped | 7.91KB | 11.71KB | 9.8 KB | 24.4 KB |
+| Unminified | 45.9 KB | 77.4 KB | 58.7 KB | 250 KB | 
+| Minified | 20.6 KB | 31.5 KB | 26 KB | 70.6 KB |
+| Minified & Gzipped | 7.50KB | 11.1 KB | 9.8 KB | 24.4 KB |
 
 | Features | domq | domQ + Dizzle | Zepto | jQuery Slim |
 | :--- | :---: | :---: | :---: | :---: |
@@ -39,8 +39,8 @@ Get domQ from CloudFlare or jsDelivr and use it like this:
 
 ### jsDelivr
 
-1. **domQ** : [jsDelivr](https://cdn.jsdelivr.net/npm/domq/dist/domq.standalone.umd.min.js)
-2. **domQ + Dizzle** : [jsDelivr](https://cdn.jsdelivr.net/npm/domq/dist/domq.bundled.umd.min.js)
+1. **domQ** : [jsDelivr](https://cdn.jsdelivr.net/npm/@domq-js/core/dist/domq.standalone.umd.min.js)
+2. **domQ + Dizzle** : [jsDelivr](https://cdn.jsdelivr.net/npm/@domq-js/core/dist/domq.bundled.umd.min.js)
 
 ```markup
 <script src="https://cdn.jsdelivr.net/npm/domq/dist/domq.bundled.umd.min.js"></script>
@@ -52,16 +52,16 @@ Get domQ from CloudFlare or jsDelivr and use it like this:
 </script>
 ```
 
-domQ is also available through [npm](https://npmjs.com/) as the [`domq`](https://npmjs.com/package/domq) package:
+domQ is also available through [npm](https://npmjs.com/) as the [`@domq-js/core`](https://npmjs.com/package/domq) package:
 
 ```text
-npm install --save domq
+npm install --save @domq-js/core
 ```
 
 That you can then use like this:
 
 ```javascript
-import domq from "domq";
+import domq from "@domq-js/core";
 
 domq(function () {
   domq('html').addClass ( 'domq-works' );
@@ -75,11 +75,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-[Checkout CHANGELOG.md](https://github.com/varunsridharan/domq/blob/docs/CHANGELOG.md)
+[Checkout CHANGELOG.md](https://github.com/domq-js/core/blob/docs/CHANGELOG.md)
 
 ## 🤝 Contributing
 
-If you would like to help, please take a look at the list of [issues](https://github.com/varunsridharan/domq/blob/docs/issues).
+If you would like to help, please take a look at the list of [issues](https://github.com/domq-js/core/blob/docs/issues).
 
 ## 💰 Sponsor
 
@@ -92,13 +92,13 @@ If you would like to help, please take a look at the list of [issues](https://gi
 
 ## 📜 License & Conduct
 
-* [**MIT**](https://github.com/varunsridharan/domq/blob/docs/LICENSE) © [Varun Sridharan](https://github.com/varunsridharan/domq/blob/docs/website)
-* [Code of Conduct](https://github.com/varunsridharan/domq/blob/docs/code-of-conduct.md)
+* [**MIT**](https://github.com/domq-js/core/blob/docs/LICENSE) © [Varun Sridharan](https://github.com/domq-js/core/blob/docs/website)
+* [Code of Conduct](https://github.com/domq-js/core/blob/docs/code-of-conduct.md)
 
 ## 📣 Feedback
 
 * ⭐ This repository if this project helped you!😉
-* Create An[🔧 Issue](https://github.com/varunsridharan/domq/blob/docs/issues) if you need help / found a bug
+* Create An [🔧 Issue](https://github.com/domq-js/core/blob/docs/issues) if you need help / found a bug
 
 ## Connect & Say 👋
 

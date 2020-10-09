@@ -31,5 +31,5 @@ domQ( "ul li" ).addClass(function( index ) {
 
 {% embed url="https://api.jquery.com/addClass/" caption="jQuery Documentation" %}
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/addClass.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/attributes/addClass.js" caption="Source File" %}
 

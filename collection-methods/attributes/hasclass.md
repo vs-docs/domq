@@ -23,7 +23,7 @@ if( domQ( "p" ).hasClass( "myClass yourClass" ) ){
 
 {% embed url="https://api.jquery.com/hasClass/" caption="jQuery Documentation" %}
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/hasClass.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/attributes/hasClass.js" caption="Source File" %}
 
 
 

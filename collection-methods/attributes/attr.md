@@ -37,5 +37,5 @@ console.log( value );
 
 {% embed url="https://api.jquery.com/attr/" caption="jQuery Documentation" %}
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/attr.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/attributes/attr.js" caption="Source File" %}
 

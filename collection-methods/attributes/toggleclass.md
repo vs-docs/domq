@@ -39,5 +39,5 @@ domQ( "div.foo" ).toggleClass(function() {
 
 {% embed url="https://api.jquery.com/toggleClass/" caption="jQuery Documentation" %}
 
-{% embed url="https://github.com/varunsridharan/domq/blob/main/src/attributes/toggleClass.js" caption="Source File" %}
+{% embed url="https://github.com/domq-js/core/blob/main/src/attributes/toggleClass.js" caption="Source File" %}
 

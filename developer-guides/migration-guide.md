@@ -148,7 +148,7 @@ $('.bar').trigger ( 'click' );
 
 ### Trigger data
 
-jQuery supports passing multiple data arguments to your event handlers by providing an array of data arguments to `$.fn.trigger`.
+jQuery supports passing multiple data Parameters to your event handlers by providing an array of data Parameters to `$.fn.trigger`.
 
 domQ doesn't support this, whatever you provide as a data argument will be passed through as is, even if it's an array.
 
