@@ -65,7 +65,3 @@
 * [Migration Guide](developer-guides/migration-guide.md)
 * [Extending domQ](developer-guides/extending.md)
 
----
-
-* [📝 Changelog](changelog.md)
-
