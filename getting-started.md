@@ -26,23 +26,25 @@ domQ( element ).addClass ( className ) // => collection
 
 | Attributes | Collection | CSS | Data | Dimensions | Effects |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [addClass \(\)](collection-methods/attributes/addclass.md) | add \(\) | css \(\) | data \(\) | height \(\) | hide \(\) |
-| attr \(\) | each \(\) |  |  | innerHeight \(\) | show \(\) |
-| hasClass \(\) | eq \(\) |  |  | innerWidth \(\) | toggle \(\) |
-| prop \(\) | filter \(\) |  |  | outerHeight \(\) |  |
-| removeAttr \(\) | first \(\) |  |  | outerWidth \(\) |  |
-| removeClass \(\) | get \(\) |  |  | width \(\) |  |
-| removeProp \(\) | index \(\) |  |  |  |  |
-| toggleClass \(\) | last \(\) |  |  |  |  |
-|  | map \(\) |  |  |  |  |
-|  | slice \(\) |  |  |  |  |
+| [addClass \(\)](collection-methods/attributes/addclass.md) | add \(\) | css \(\) | data \(\) | height \(\) | animate \(\) |
+| attr \(\) | each \(\) |  |  | innerHeight \(\) | hide \(\) |
+| hasClass \(\) | eq \(\) |  |  | innerWidth \(\) | show \(\) |
+| prop \(\) | filter \(\) |  |  | outerHeight \(\) | toggle \(\) |
+| removeAttr \(\) | first \(\) |  |  | outerWidth \(\) | fadeIn \(\) |
+| removeClass \(\) | get \(\) |  |  | width \(\) | fadeOut \(\) |
+| removeProp \(\) | index \(\) |  |  |  | fadeToggle \(\) |
+| toggleClass \(\) | last \(\) |  |  |  | fadeTo \(\) |
+| copyAttr \(\) | map \(\) |  |  |  | highlight \(\) |
+| hasAttr \(\) | slice \(\) |  |  |  | move \(\) |
+| moveAttr \(\) | even \(\) |  |  |  | pulse \(\) |
+|  | odd \(\) |  |  |  | scale \(\) |
 
 | Events | Forms | Manipulation | Offset | Traversal |
 | :---: | :---: | :---: | :---: | :---: |
-| off \(\) | serialize \(\) | after \(\) | offset \(\) | children \(\) |
-| on \(\) | val \(\) | append \(\) | offsetParent \(\) | closest \(\) |
-| one \(\) |  | appendTo \(\) | position \(\) | contents \(\) |
-| ready \(\) |  | before \(\) |  | find \(\) |
+| off \(\) | val  \(\) | after \(\) | offset \(\) | children \(\) |
+| on \(\) | serialize \(\) | append \(\) | offsetParent \(\) | closest \(\) |
+| one \(\) | serializeArray \(\) | appendTo \(\) | position \(\) | contents \(\) |
+| ready \(\) | serializeObject \(\) | before \(\) |  | find \(\) |
 | trigger \(\) |  | clone \(\) |  | has \(\) |
 |  |  | detach \(\) |  | is \(\) |
 |  |  | empty \(\) |  | next \(\) |

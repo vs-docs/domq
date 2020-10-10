@@ -10,12 +10,10 @@ Copy a attr value from one attribute name to another
 ## Example
 
 ```javascript
-domQ( "p" ).copyAttr( "data-existingName", "data-newName");    
+domQ( "p" ).copyAttr( "data-existingName", "data-newName");
 ```
 
 ## Quick Links
 
 {% embed url="https://github.com/domq-js/core/blob/main/src/attributes/copyAttr.js" caption="Source File" %}
-
-
 

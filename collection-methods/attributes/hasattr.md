@@ -16,7 +16,3 @@ domQ( "p" ).hasAttr( "myattr" )
 
 {% embed url="https://github.com/domq-js/core/blob/main/src/attributes/hasAttr.js\#L3" caption="Source File" %}
 
-
-
-
-

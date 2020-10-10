@@ -25,5 +25,3 @@ if( domQ( "p" ).hasClass( "myClass yourClass" ) ){
 
 {% embed url="https://github.com/domq-js/core/blob/main/src/attributes/hasClass.js" caption="Source File" %}
 
-
-

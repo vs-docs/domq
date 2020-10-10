@@ -16,7 +16,7 @@ Well as a web developer i wanted to move out from jQuery and use Vanilla JS. Whe
 
 | Size | domQ | domQ + Dizzle | Zepto | jQuery Slim |
 | :--- | :---: | :---: | :---: | :---: |
-| Unminified | 45.9 KB | 77.4 KB | 58.7 KB | 250 KB | 
+| Unminified | 45.9 KB | 77.4 KB | 58.7 KB | 250 KB |
 | Minified | 20.6 KB | 31.5 KB | 26 KB | 70.6 KB |
 | Minified & Gzipped | 7.50KB | 11.1 KB | 9.8 KB | 24.4 KB |
 
@@ -30,7 +30,7 @@ Well as a web developer i wanted to move out from jQuery and use Vanilla JS. Whe
 | \*\* Animation | ✔ | ✔ | ⚠️\(Custom Workaround\) ️ | ❌ |
 
 {% hint style="info" %}
- domQ uses [WebAnimation's](https://github.com/web-animations/web-animations-js) API
+domQ uses [WebAnimation's](https://github.com/web-animations/web-animations-js) API
 {% endhint %}
 
 ## Usage
