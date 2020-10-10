@@ -66,9 +66,19 @@ domQ( element ).addClass ( className ) // => collection
 
 | Type Checking | Utilities |
 | :---: | :---: |
-| isArray \(\) | guid |
-| isFunction \(\) | each \(\) |
-| isNumeric \(\) | extend \(\) |
-| isPlainObject \(\) | parseHTML \(\) |
-| isWindow \(\) | unique \(\) |
+| isBoolean \(\) | camelCase \(\) |
+| isDocument \(\) | attempt \(\) |
+| isElement \(\) | parseHTML \(\) |
+| isFunction \(\) | pluck \(\) |
+| isNodetype \(\) | merge \(\) |
+| isNull \(\) | unique \(\) |
+| isNumber \(\) | plainObject \(\) |
+| isNumeric \(\) | each \(\) |
+| isPlainObject \(\) | extend \(\) |
+| isString \(\) |  |
+| isType \(\) |  |
+| isUndefined \(\) |  |
+| isWindow \(\) |  |
+| isdomQ \(\) |  |
+|  |  |
 
