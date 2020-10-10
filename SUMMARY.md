@@ -65,3 +65,7 @@
 * [Migration Guide](developer-guides/migration-guide.md)
 * [Extending domQ](developer-guides/extending.md)
 
+---
+
+* [Change Log](change-log.md)
+
